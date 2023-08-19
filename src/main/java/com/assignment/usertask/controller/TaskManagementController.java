@@ -26,6 +26,8 @@ import com.assignment.usertask.repository.UserRepository;
 
 @CrossOrigin(origins = "http://localhost:8081")
 @RestController
+@RequestMapping("/api")
+
 public class TaskManagementController {
 
 	
